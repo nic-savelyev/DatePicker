@@ -10,4 +10,8 @@
 
 @interface NSViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIDatePicker *datepick;
+
+- (IBAction)showDate;
+
 @end
